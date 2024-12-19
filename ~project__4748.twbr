@@ -1,0 +1,560 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20233.23.1227.1336                               -->
+<workbook original-version='18.1' source-build='2023.3.1 (20233.23.1227.1336)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+    <ZoneBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='gold_data' inline='true' name='federated.0oeo59c0vz8zi71gq93dj0qgi4be' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='gold_data' name='textscan.10d49ps11uro5m1460mxs0a43h7j'>
+            <connection class='textclean' cleaning='yes' compat='no' csvFile='Data/final project/gold_data.csv' dataRefreshTime='' directory='Data/final project' filename='C:/Users/heer/AppData/Local/Temp/TableauTemp/0iw1jo31u2kpkx14b3r9r01kpqeg/gold_data.csv.xlsx' interpretationMode='8' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.10d49ps11uro5m1460mxs0a43h7j' name='gold_data.csv' table='[gold_data#csv$]' type='table'>
+          <columns character-set='UTF-8' gridOrigin='A1:H52:no:A1:H52:2' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='orderid orderid' ordinal='0' />
+            <column datatype='string' name='itemid itemid' ordinal='1' />
+            <column datatype='real' name='orderunits orderunits' ordinal='2' />
+            <column datatype='string' name='city city' ordinal='3' />
+            <column datatype='string' name='state state' ordinal='4' />
+            <column datatype='integer' name='zipcode zipcode' ordinal='5' />
+            <column datatype='string' name='category category' ordinal='6' />
+            <column datatype='real' name='revenue revenue' ordinal='7' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.10d49ps11uro5m1460mxs0a43h7j' name='gold_data.csv' table='[gold_data#csv$]' type='table'>
+          <columns character-set='UTF-8' gridOrigin='A1:H52:no:A1:H52:2' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='orderid orderid' ordinal='0' />
+            <column datatype='string' name='itemid itemid' ordinal='1' />
+            <column datatype='real' name='orderunits orderunits' ordinal='2' />
+            <column datatype='string' name='city city' ordinal='3' />
+            <column datatype='string' name='state state' ordinal='4' />
+            <column datatype='integer' name='zipcode zipcode' ordinal='5' />
+            <column datatype='string' name='category category' ordinal='6' />
+            <column datatype='real' name='revenue revenue' ordinal='7' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[gold_data.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>1</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:H51:no:A1:H51:1&quot;</attribute>
+              <attribute datatype='integer' name='lost'>0</attribute>
+              <attribute datatype='integer' name='outcome'>1</attribute>
+              <attribute datatype='integer' name='processed'>200</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>orderid</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[orderid]</local-name>
+            <parent-name>[gold_data.csv]</parent-name>
+            <remote-alias>orderid</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[gold_data.csv_D60D0F1C1E5C46249CBA99C7002124B0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>itemid</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[itemid]</local-name>
+            <parent-name>[gold_data.csv]</parent-name>
+            <remote-alias>itemid</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[gold_data.csv_D60D0F1C1E5C46249CBA99C7002124B0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>orderunits</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[orderunits]</local-name>
+            <parent-name>[gold_data.csv]</parent-name>
+            <remote-alias>orderunits</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[gold_data.csv_D60D0F1C1E5C46249CBA99C7002124B0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>city</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[city]</local-name>
+            <parent-name>[gold_data.csv]</parent-name>
+            <remote-alias>city</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[gold_data.csv_D60D0F1C1E5C46249CBA99C7002124B0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>state</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[state]</local-name>
+            <parent-name>[gold_data.csv]</parent-name>
+            <remote-alias>state</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[gold_data.csv_D60D0F1C1E5C46249CBA99C7002124B0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>zipcode</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[zipcode]</local-name>
+            <parent-name>[gold_data.csv]</parent-name>
+            <remote-alias>zipcode</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[gold_data.csv_D60D0F1C1E5C46249CBA99C7002124B0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>category</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[category]</local-name>
+            <parent-name>[gold_data.csv]</parent-name>
+            <remote-alias>category</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[gold_data.csv_D60D0F1C1E5C46249CBA99C7002124B0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>revenue</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[revenue]</local-name>
+            <parent-name>[gold_data.csv]</parent-name>
+            <remote-alias>revenue</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[gold_data.csv_D60D0F1C1E5C46249CBA99C7002124B0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='gold_data.csv' datatype='table' name='[__tableau_internal_object_id__].[gold_data.csv_D60D0F1C1E5C46249CBA99C7002124B0]' role='measure' type='quantitative' />
+      <column caption='Category' datatype='string' name='[category]' role='dimension' type='nominal' />
+      <column caption='City' datatype='string' name='[city]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+      <column caption='Itemid' datatype='string' name='[itemid]' role='dimension' type='nominal' />
+      <column caption='Orderid' datatype='integer' name='[orderid]' role='measure' type='quantitative' />
+      <column caption='Orderunits' datatype='real' name='[orderunits]' role='measure' type='quantitative' />
+      <column caption='Revenue' datatype='real' name='[revenue]' role='measure' type='quantitative' />
+      <column caption='State' datatype='string' name='[state]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column aggregation='Sum' caption='Zipcode' datatype='integer' default-format='*00000' name='[zipcode]' role='dimension' semantic-role='[ZipCode].[Name]' type='ordinal' />
+      <column-instance column='[orderid]' derivation='Sum' name='[sum:orderid:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[orderunits]' derivation='Sum' name='[sum:orderunits:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[revenue]' derivation='Sum' name='[sum:revenue:qk]' pivot='key' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0oeo59c0vz8zi71gq93dj0qgi4be].[sum:orderunits:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.0oeo59c0vz8zi71gq93dj0qgi4be].[sum:orderid:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0oeo59c0vz8zi71gq93dj0qgi4be].[sum:revenue:qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='gold_data.csv' id='gold_data.csv_D60D0F1C1E5C46249CBA99C7002124B0'>
+            <properties context=''>
+              <relation connection='textscan.10d49ps11uro5m1460mxs0a43h7j' name='gold_data.csv' table='[gold_data#csv$]' type='table'>
+                <columns character-set='UTF-8' gridOrigin='A1:H52:no:A1:H52:2' header='yes' locale='en_US' separator=','>
+                  <column datatype='integer' name='orderid orderid' ordinal='0' />
+                  <column datatype='string' name='itemid itemid' ordinal='1' />
+                  <column datatype='real' name='orderunits orderunits' ordinal='2' />
+                  <column datatype='string' name='city city' ordinal='3' />
+                  <column datatype='string' name='state state' ordinal='4' />
+                  <column datatype='integer' name='zipcode zipcode' ordinal='5' />
+                  <column datatype='string' name='category category' ordinal='6' />
+                  <column datatype='real' name='revenue revenue' ordinal='7' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontname='Tableau Bold' fontsize='16'>Revenue and Orderunits </run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='gold_data' name='federated.0oeo59c0vz8zi71gq93dj0qgi4be' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0oeo59c0vz8zi71gq93dj0qgi4be'>
+            <column caption='Category' datatype='string' name='[category]' role='dimension' type='nominal' />
+            <column caption='City' datatype='string' name='[city]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+            <column-instance column='[category]' derivation='None' name='[none:category:nk]' pivot='key' type='nominal' />
+            <column-instance column='[city]' derivation='None' name='[none:city:nk]' pivot='key' type='nominal' />
+            <column caption='Orderunits' datatype='real' name='[orderunits]' role='measure' type='quantitative' />
+            <column caption='Revenue' datatype='real' name='[revenue]' role='measure' type='quantitative' />
+            <column-instance column='[orderunits]' derivation='Sum' name='[sum:orderunits:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[revenue]' derivation='Sum' name='[sum:revenue:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0oeo59c0vz8zi71gq93dj0qgi4be].[sum:revenue:qk]' field-type='quantitative' fold='true' major-origin='0.0' major-spacing='500.0' scope='rows' synchronized='true' type='space' />
+            <encoding attr='space' class='0' field='[federated.0oeo59c0vz8zi71gq93dj0qgi4be].[sum:orderunits:qk]' field-type='quantitative' major-origin='0.0' major-spacing='500.0' minor-origin='0.0' minor-spacing='100.0' scope='rows' type='space' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0oeo59c0vz8zi71gq93dj0qgi4be].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0oeo59c0vz8zi71gq93dj0qgi4be].[sum:orderunits:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0oeo59c0vz8zi71gq93dj0qgi4be].[:Measure Names]' />
+              <text column='[federated.0oeo59c0vz8zi71gq93dj0qgi4be].[sum:orderunits:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0oeo59c0vz8zi71gq93dj0qgi4be].[sum:revenue:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <encodings>
+              <color column='[federated.0oeo59c0vz8zi71gq93dj0qgi4be].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.0oeo59c0vz8zi71gq93dj0qgi4be].[sum:orderunits:qk] + [federated.0oeo59c0vz8zi71gq93dj0qgi4be].[sum:revenue:qk])</rows>
+        <cols>([federated.0oeo59c0vz8zi71gq93dj0qgi4be].[none:category:nk] / [federated.0oeo59c0vz8zi71gq93dj0qgi4be].[none:city:nk])</cols>
+      </table>
+      <simple-id uuid='{76595D40-4E61-4C96-942A-DB67FC5A2E4B}' />
+    </worksheet>
+    <worksheet name='Sheet 2'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='gold_data' name='federated.0oeo59c0vz8zi71gq93dj0qgi4be' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0oeo59c0vz8zi71gq93dj0qgi4be'>
+            <column caption='City' datatype='string' name='[city]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+            <column-instance column='[city]' derivation='None' name='[none:city:nk]' pivot='key' type='nominal' />
+            <column caption='Orderid' datatype='integer' name='[orderid]' role='measure' type='quantitative' />
+            <column caption='Orderunits' datatype='real' name='[orderunits]' role='measure' type='quantitative' />
+            <column-instance column='[orderid]' derivation='Sum' name='[sum:orderid:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[orderunits]' derivation='Sum' name='[sum:orderunits:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0oeo59c0vz8zi71gq93dj0qgi4be].[:Measure Names]'>
+            <groupfilter function='empty-level' member='[:Measure Names]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0oeo59c0vz8zi71gq93dj0qgi4be].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0oeo59c0vz8zi71gq93dj0qgi4be].[sum:orderunits:qk]' field-type='quantitative' fold='true' scope='rows' type='space' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0oeo59c0vz8zi71gq93dj0qgi4be].[:Measure Names]' />
+            </encodings>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0oeo59c0vz8zi71gq93dj0qgi4be].[sum:orderid:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Square' />
+            <encodings>
+              <color column='[federated.0oeo59c0vz8zi71gq93dj0qgi4be].[:Measure Names]' />
+            </encodings>
+          </pane>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0oeo59c0vz8zi71gq93dj0qgi4be].[sum:orderunits:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Shape' />
+            <encodings>
+              <color column='[federated.0oeo59c0vz8zi71gq93dj0qgi4be].[:Measure Names]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>([federated.0oeo59c0vz8zi71gq93dj0qgi4be].[sum:orderid:qk] + [federated.0oeo59c0vz8zi71gq93dj0qgi4be].[sum:orderunits:qk])</rows>
+        <cols>[federated.0oeo59c0vz8zi71gq93dj0qgi4be].[none:city:nk]</cols>
+      </table>
+      <simple-id uuid='{4378647D-E735-4EA5-8FB7-EAAA01CFED1A}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Dashboard 1'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <datasources>
+        <datasource caption='gold_data' name='federated.0oeo59c0vz8zi71gq93dj0qgi4be' />
+      </datasources>
+      <datasource-dependencies datasource='federated.0oeo59c0vz8zi71gq93dj0qgi4be' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98000' id='12' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='6250' id='13' type-v2='title' w='98400' x='800' y='1000'>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+            <zone h='91750' id='7' param='horz' type-v2='layout-flow' w='98400' x='800' y='7250'>
+              <zone h='91750' id='5' type-v2='layout-basic' w='82400' x='800' y='7250'>
+                <zone h='45875' id='3' name='Sheet 1' w='82400' x='800' y='7250'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='45875' id='9' name='Sheet 2' w='82400' x='800' y='53125'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone fixed-size='160' h='91750' id='6' is-fixed='true' param='vert' type-v2='layout-flow' w='16000' x='83200' y='7250'>
+                <zone h='9000' id='8' name='Sheet 1' pane-specification-id='1' param='[federated.0oeo59c0vz8zi71gq93dj0qgi4be].[:Measure Names]' type-v2='color' w='16000' x='83200' y='7250'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='18875' id='10' name='Sheet 2' param='[federated.0oeo59c0vz8zi71gq93dj0qgi4be].[:Measure Names]' type-v2='filter' w='16000' x='83200' y='16250'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='2' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='1' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000' />
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{1104102C-F701-42BD-B6F2-9E74C4CD3E3B}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='37'>
+    <window class='worksheet' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.0oeo59c0vz8zi71gq93dj0qgi4be].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{914DCB31-A519-496D-B98F-2F0F21B73549}' />
+    </window>
+    <window class='worksheet' name='Sheet 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.0oeo59c0vz8zi71gq93dj0qgi4be].[:Measure Names]' show-morefewerbutton='false' type='filter' />
+            <card pane-specification-id='2' param='[federated.0oeo59c0vz8zi71gq93dj0qgi4be].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{2DC49AB1-9BFE-42E0-9A61-4FA039B2AAB2}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='Sheet 1'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Sheet 2'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='9' />
+      <simple-id uuid='{64623CEB-F020-4BE7-B24B-6F29B3DAF867}' />
+    </window>
+  </windows>
+</workbook>
